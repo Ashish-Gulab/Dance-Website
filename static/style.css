@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1); /*This is used to invert the color of the image */
+}
+
+#navbar{
+    background-color: black;
+    padding: 18px 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    
+}
+
+#navbar li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: rgb(233, 94, 94);
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    align-items: center;
+    height: 425px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+}
+
+#introsection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+
+#missionSection{
+    height: 326px;
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 42px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+/* .card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+} */
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(250, 197, 197);
+}
+
+#sponsors{
+    height: 181px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 42px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 80px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

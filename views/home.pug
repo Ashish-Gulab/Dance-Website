@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css 
+
+block content
+    section#introsection
+        div Welcome to Ashish's Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+        
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/dance1.png")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, incidunt dolores labore reprehenderit cumque numquam sequi aspernatur consectetur obcaecati, distinctio ea vitae possimus provident iste eum sint soluta magnam atque?
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/dance3.png")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, incidunt dolores labore reprehenderit cumque numquam sequi aspernatur consectetur obcaecati, distinctio ea vitae possimus provident iste eum sint soluta magnam atque?
+        div.card 
+            h3 Expert teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/dance4.png")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, incidunt dolores labore reprehenderit cumque numquam sequi aspernatur consectetur obcaecati, distinctio ea vitae possimus provident iste eum sint soluta magnam atque?
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/logo1.png", alt="sponsor image", class='spImage')
+            img(src="/static/logo2.png", alt="sponsor image", class='spImage')
+            img(src="/static/logo3.png", alt="sponsor image", class='spImage')
+            img(src="/static/logo4.png", alt="sponsor image", class='spImage')
