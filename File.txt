@@ -1,0 +1,22 @@
+$ git config --global user.name Ashish
+$ git config --global user.email "ashishgulab.gulab@gmail.com"
+$ git config --global user.name "Ashish Gulab"
+$ touch .gitignore
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+$ git status
+$ git remote add origin git@github.com:Ashish-Gulab/Dance-Website.git
+$ git push origin master
+
+$ ssh-keygen -t rsa -b 4096 -C ashishgulab.gulab@gmail.com
+
+$ cat /c/Users/DELL/.ssh/id_rsa.pub
+$ git push origin master # Project Added to Github
+// Added new File to github repository Project file
+$ git status
+$ git add .
+$ git commit --m "Added Text File"
+
+
+$ git push origin master
